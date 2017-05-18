@@ -1,0 +1,3 @@
+[submodule "HappyShop.Base"]
+	path = HappyShop.Base
+	url = https://github.com/happyshop/happyshop-mono-base.git

@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{620A9D91-5933-48E3-A84F-41786EB14A52}"
+	ProjectSection(SolutionItems) = preProject
+		kiosk_structure_only.sql = kiosk_structure_only.sql
+		LICENSE = LICENSE
+		README.md = README.md
+		SetVersion.ps1 = SetVersion.ps1
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HappyShop.WebService", "HappyShop.WebService\HappyShop.WebService.csproj", "{4A3CD5B0-7D55-4B76-9976-158E053E0DBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HappyShop.WebService.Host", "HappyShop.WebService.Host\HappyShop.WebService.Host.csproj", "{DA4D141E-08CD-4188-B6B6-1679DED03FD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HappyShop.Configuration", "HappyShop.Base\HappyShop.Configuration\HappyShop.Configuration.csproj", "{B974E4EF-6B86-4665-B2FC-20758802093A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HappyShop.ServiceConnector", "HappyShop.Base\HappyShop.ServiceConnector\HappyShop.ServiceConnector.csproj", "{39489860-ACF5-4593-BB1A-518DF4868514}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HappyShop.Model", "HappyShop.Base\HappyShop.Model\HappyShop.Model.csproj", "{7F5F0ABD-4520-4DFA-8C6C-C15CF39333F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HappyShop.Database", "HappyShop.Base\HappyShop.Database\HappyShop.Database.csproj", "{062E30FC-1B1C-4A7E-BEB4-AFEC97FB994D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A3CD5B0-7D55-4B76-9976-158E053E0DBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A3CD5B0-7D55-4B76-9976-158E053E0DBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A3CD5B0-7D55-4B76-9976-158E053E0DBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A3CD5B0-7D55-4B76-9976-158E053E0DBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA4D141E-08CD-4188-B6B6-1679DED03FD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA4D141E-08CD-4188-B6B6-1679DED03FD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA4D141E-08CD-4188-B6B6-1679DED03FD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA4D141E-08CD-4188-B6B6-1679DED03FD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B974E4EF-6B86-4665-B2FC-20758802093A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B974E4EF-6B86-4665-B2FC-20758802093A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B974E4EF-6B86-4665-B2FC-20758802093A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B974E4EF-6B86-4665-B2FC-20758802093A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39489860-ACF5-4593-BB1A-518DF4868514}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39489860-ACF5-4593-BB1A-518DF4868514}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39489860-ACF5-4593-BB1A-518DF4868514}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39489860-ACF5-4593-BB1A-518DF4868514}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F5F0ABD-4520-4DFA-8C6C-C15CF39333F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F5F0ABD-4520-4DFA-8C6C-C15CF39333F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F5F0ABD-4520-4DFA-8C6C-C15CF39333F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F5F0ABD-4520-4DFA-8C6C-C15CF39333F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{062E30FC-1B1C-4A7E-BEB4-AFEC97FB994D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{062E30FC-1B1C-4A7E-BEB4-AFEC97FB994D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{062E30FC-1B1C-4A7E-BEB4-AFEC97FB994D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{062E30FC-1B1C-4A7E-BEB4-AFEC97FB994D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
