@@ -1,2 +1,2 @@
-FROM mono:3-onbuild
+FROM mono:4-onbuild
 CMD [ "mono", "./HappyShop.WebService.Host.exe" ]
